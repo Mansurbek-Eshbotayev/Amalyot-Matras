@@ -1,0 +1,35 @@
+@mixin list-rest {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@mixin box ($width, $height, $color) {
+  width:$width;
+  height:$height ;
+  background-color:$color ;
+}
+
+@mixin boxing ($width:400px, $height:300px, $color:red) {
+  width:$width;
+  height:$height ;
+  background-color:$color ;
+}
+
+@mixin text-ellipses {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin display-justfiy-alain ($content:flex ,$centr:space-between,$middle:center) {
+  display: $content;
+  justify-content:$centr ;
+  align-items:$middle ;
+}
+
+@mixin media-max ($max-width:1440px) {
+  @media only screen and (max-width:$max-width) {
+    @content;
+  }
+}
