@@ -29,7 +29,6 @@
   font-weight: 800;
   src: url("../fonts/raleway-v28-latin-800.woff2") format("woff2"), url("../fonts/raleway-v28-latin-800.woff") format("woff");
 }
-/* josefin-sans-700 - latin */
 @font-face {
   font-display: swap;
   font-family: "Josefin Sans";
@@ -37,7 +36,7 @@
   font-weight: 700;
   src: url("../fonts/josefin-sans-v25-latin-700.woff2") format("woff2"), url("../fonts/josefin-sans-v25-latin-700.woff") format("woff");
 }
-/* open-sans-300 - latin */
+
 @font-face {
   font-display: swap;
   font-family: "Open Sans";
@@ -45,69 +44,38 @@
   font-weight: 300;
   src: url("../fonts/open-sans-v34-latin-300.woff2") format("woff2"), url("../fonts/open-sans-v34-latin-300.woff") format("woff");
 }
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
 body {
   margin: 0;
 }
 
-/**
- * Render the `main` element consistently in IE.
- */
 main {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* Grouping content
-   ========================================================================== */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
+
 hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
+
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Remove the gray background on active links in IE 10.
- */
+
 a {
   background-color: transparent;
 }
@@ -120,7 +88,9 @@ abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+
+  text-decoration: underline dotted; /* 2 */
+
 }
 
 /**
@@ -369,7 +339,9 @@ html {
 
 body {
   font-family: "Josefin Sans", "Open Sans", "Raleway", "Arial", "sans-serif";
+
   font-style: normal;
+
   margin: 0;
   padding: 0;
 }
@@ -380,6 +352,13 @@ img {
 
 hr {
   margin: 0;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .visually-hidden {
@@ -396,9 +375,11 @@ hr {
 .container {
   width: 100%;
   width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
 
 .product-section {
   padding: 100px 0;
@@ -592,4 +573,504 @@ hr {
   line-height: 19px;
   color: #01384D;
   background-color: #fff;
+=======
+.wrap-head {
+  background-color: #EABF9F;
+}
+
+.header {
+  padding-top: 18px;
+  position: relative;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__img {
+  width: 109px;
+  height: 25px;
+}
+
+.header__info {
+  display: none;
+}
+
+.header__logo {
+  text-decoration: none;
+}
+
+.nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.close-btn {
+  width: 23px;
+  height: 10px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../images/button.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.exit-btn {
+  width: 17px;
+  height: 17px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../images/close.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav--active {
+  display: block;
+}
+
+.nav-high {
+  padding: 50px 20px 0px 30px;
+  overflow-x: hidden;
+  background-color: #EABF9F !important;
+  -webkit-animation-name: circle-to-square;
+  animation-name: circle-to-square;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: none;
+  animation-iteration-count: none;
+  -webkit-animation-direction: 5s;
+  animation-direction: 5s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+.header__nav {
+  overflow-x: hidden;
+  position: absolute;
+  background-color: #EABF9F;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.header__item {
+  margin-bottom: 30px;
+}
+
+.header__item:last-child {
+  margin-bottom: 45px;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #01384D;
+}
+
+.header__btn {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 15px 30px;
+  color: #01384D;
+  background-color: #FFFFFF;
+  border: 2px solid #01384D;
+  border-radius: 5px;
+}
+
+.wrap__number {
+  margin-top: 90px;
+  padding: 30px;
+  background-color: #FFFFFF;
+}
+
+.header__tel {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #01384D;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.header__tel::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background-image: url(../../images/Call.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+@keyframes circle-to-square {
+  0% {
+    width: 100%;
+    transform: translateY(-400px);
+  }
+  50% {
+    width: 100%;
+    transform: translateY(0px);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header__img {
+    width: 160px;
+    height: 37px;
+  }
+  .nav-top,
+.header__btn,
+.wrap__number {
+    display: none;
+  }
+  .header__nav {
+    overflow-x: hidden;
+    position: static;
+    background-color: transparent;
+    width: 100%;
+  }
+  .nav-high {
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .header__list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header__item,
+.header__item:last-child {
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+  .header__item:last-child {
+    margin-right: 0px;
+  }
+  .header__link {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5E6E6E;
+  }
+  .close-btn {
+    display: none;
+  }
+  .header__info {
+    display: flex;
+    align-items: center;
+  }
+  .header__btn--on {
+    display: block;
+  }
+  .header__bottom {
+    padding: 15px 0;
+  }
+  .header__tel {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #01384D;
+    text-decoration: none;
+    margin-right: 38px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .header__tel::before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-image: url(../../images/Call.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 12px;
+  }
+}
+.hero {
+  padding: 50px 0 100px 0;
+  overflow-x: hidden;
+}
+
+.hero .slick-prev {
+  display: none !important;
+}
+.hero .slick-next {
+  display: none !important;
+}
+.hero .slick-dots {
+  width: 250px;
+  height: 3px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  bottom: -40px !important;
+}
+.hero .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 50px !important;
+  height: 3px !important;
+  margin: 0 !important;
+  padding: 0;
+  bottom: 11px;
+  left: -51px;
+  cursor: pointer;
+}
+.hero .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 50px !important;
+  height: 3px !important;
+  padding: 0px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.hero .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px !important;
+  height: 3px !important;
+  content: "";
+  text-align: center;
+  opacity: 0;
+  color: black;
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hero .slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: black;
+}
+.hero .slick-list {
+  position: relative;
+  display: block;
+}
+.hero .hero__list {
+  margin-bottom: 0;
+}
+
+.hero__title {
+  text-align: start;
+  width: 300px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 55px;
+  color: #01384D;
+  position: relative;
+  margin: 0 auto;
+}
+
+.hero__img {
+  width: 100%;
+  max-width: 275px;
+  margin: 39px auto;
+}
+
+.hero__img--two {
+  display: none !important;
+}
+
+.hero__link {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 13px 25px;
+  color: #01384D;
+  background-color: #FFFFFF;
+  border: 2px solid #01384D;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+.hero__link::after {
+  content: "";
+  width: 15px;
+  height: 10px;
+  background-image: url(../../images/next.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding: 50px 0 0 0;
+  }
+  .hero__list {
+    width: 100%;
+  }
+  .hero__item {
+    position: relative;
+    width: 100%;
+    padding-bottom: 190px;
+  }
+  .hero__title {
+    width: 100%;
+    max-width: 735px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    color: #01384D;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .hero__title::after {
+    content: "";
+    display: none;
+  }
+  .hero__img {
+    max-width: 500px;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    margin: 0;
+    z-index: -1;
+  }
+  .hero .slick-dots {
+    bottom: 70px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hero__title {
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 105px;
+  }
+  .hero__img--two {
+    display: block !important;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    margin: 0;
+    z-index: -1;
+  }
+}
+.counter {
+  padding: 50px 0px 90px 0px;
+}
+
+.counter__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.counter__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.counter__item:nth-child(1),
+.counter__item:nth-child(2) {
+  margin-bottom: 50px;
+}
+
+.counter__count {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  color: #01384D;
+  margin-bottom: 15px;
+}
+
+.counter__description {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #01384D;
+}
+
+@media only screen and (min-width: 509px) {
+  .counter__item:nth-child(1),
+.counter__item:nth-child(2) {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .counter {
+    padding: 80px 0px 100px 0px;
+  }
+  .counter__count {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 111px;
+    color: #01384D;
+    margin-bottom: 15px;
+  }
+  .counter__description {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    color: #01384D;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .counter__count {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 141px;
+    color: #01384D;
+    margin-bottom: 15px;
+  }
+  .counter__description {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #01384D;
+  }
+
 }/*# sourceMappingURL=main.css.map */
