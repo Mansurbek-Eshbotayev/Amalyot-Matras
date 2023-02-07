@@ -1,0 +1,231 @@
+.hero{
+  padding: 50px 0 100px 0;
+  overflow-x: hidden;
+}
+
+
+
+.hero{
+  .slick-prev{
+    display: none !important;
+  }
+  
+  .slick-next{
+    display: none !important;
+  }
+  
+  .slick-dots{
+    width: 250px;
+    height: 3px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    bottom: -40px !important;
+  }
+  
+  .slick-dots li{
+    position: relative;
+    display: inline-block;
+    width: 50px !important;
+    height: 3px !important;
+    margin: 0 !important;
+    padding: 0;
+    bottom: 11px;
+    left: -51px;
+    cursor: pointer;
+  }
+  
+  .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 50px !important;
+    height: 3px !important;
+    padding: 0px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+  }
+  
+  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px !important;
+    height: 3px !important;
+    content: '';
+    text-align: center;
+    opacity: 0;
+    color: black;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .slick-dots li.slick-active button:before
+  {
+    opacity: .75;
+    color: black;
+  }
+
+  .slick-list {
+    position: relative;
+    display: block;
+    // overflow:  ;
+}
+
+.hero__list{
+  margin-bottom: 0;
+  
+}
+
+
+}
+
+
+
+.hero__title{
+  text-align: start;
+  width: 300px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 55px;
+  color: #01384D;
+  position: relative;
+  margin: 0 auto;
+  // &::after{
+    //   content: "";
+    //   width: 100%;
+    //   max-width: 280px;
+    //   height: 194px;
+    //   background-image: url(../../images/bad.png);
+    //   background-repeat: no-repeat;
+    //   background-size: contain;
+    //   display: inline-block;
+    //   margin-top: 39px;
+    // }
+  }
+  
+  .hero__img{
+    width: 100%;
+    max-width: 275px;
+    margin: 39px auto;
+  }
+  
+  .hero__img--two{
+    display: none !important;
+  }
+  
+  .hero__link{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 13px 25px;
+    color: #01384D;
+    background-color: #FFFFFF;
+    border: 2px solid #01384D;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    &::after{
+      content: "";
+      width: 15px;
+      height: 10px;
+      background-image: url(../../images/next.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      margin-left: 15px;
+    }
+  }
+  
+  
+  
+  
+  
+  @include media-min(768px){
+    .hero{
+      padding: 50px 0 0 0;
+    }
+
+  
+    .hero__list{
+      width: 100%;
+    }
+   
+      .hero__item{
+        position: relative;
+        width: 100%;
+        padding-bottom: 190px;
+      }
+      
+      
+      .hero__title{
+        width: 100%;
+        max-width: 735px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 90px;
+        color: #01384D;
+        margin: 0;
+        margin-bottom: 50px;
+        &::after{
+          content: "";
+          display: none;
+        }
+      }
+
+      // .hero__img{
+      //  display: none !important;
+      // }
+      
+      .hero__img{
+        max-width: 500px;
+        
+        position: absolute;
+        top: 150px;
+        right: 10px;
+        margin: 0;
+        z-index: -1;
+      }
+
+      .hero{
+        .slick-dots{
+          bottom: 70px !important;
+        }
+      }
+      
+      
+    }
+    
+    
+    
+    @include media-min(1024px){
+      
+      .hero__title{
+        font-weight: 800;
+        font-size: 90px;
+        line-height: 105px;
+      }
+
+      .hero__img--two{
+        display: block !important;
+        position: absolute;
+        top: 110px;
+        right: 0;
+        margin: 0;
+        z-index: -1;
+      }
+
+    
+    }
