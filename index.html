@@ -10,6 +10,7 @@
   <title>Template</title>
 </head>
 <body>
+
   <div class="wrap-head">
     <header class="header">
       <div class="container">
@@ -88,11 +89,13 @@
         </div>
       </div>
     </header>
+
     <section class="hero">
       <div class="container">
         <ul class="hero__list">
-          <li class="hero__item">
-            <h3 class="hero__title">
+        
+          <!-- <li class="hero__item">
+            <h3 class="hero__title bekk">
               Kechalari sokin dam oling
             </h3>
             <img class="hero__img" src="./images/bad.png" alt="bad">
@@ -122,8 +125,66 @@
             <a class="hero__link" href="#">
               Kategoriyalar
             </a>
-          </li>
+          </li>  -->
         </ul>
+
+        <!-- Modal -->
+
+        <div class="wrap__modal">
+           <form class="modal" method="POST" autocomplete="off">
+            <div class="inner__exit">
+              <button class="modal_exit">
+              </button>
+            </div>
+            <h2 class="modal__title">
+              Buyurtma qilish
+            </h2>
+
+            <input class="modal__name" type="text" name="your_name" placeholder="Ismingizni yozing" required>
+
+            <label class="modal_label">
+              <span>+998</span>
+              <input class="modal__tel" type="tel" name="number" placeholder="Raqamingizni yozing" required>
+            </label>
+
+            <span class="modal__span">Mahsulotlarni toifasini tanlang</span>
+            <select class="modal__select" name="categories" required>
+              <option selected disabled value="">Matras turlari</option>
+              <option value="Ortopetik Matras">Ortopetik Matras</option>
+              <option value="Korean Matras">Korean Matras</option>
+              <option value="Toshkent Matras">Toshkent Matras</option>
+              <option value="China Matras">China Matras</option>
+            </select>
+
+            <span class="modal__span">Miqdorni tanlang</span>
+
+            <div class="button__wrap">
+              <button class="button_inc" type="button">-</button>
+              <span class="button__count">1</span>
+              <button class="button_dec" type="button">+</button>
+            </div>
+
+            <button class="modal_send" type="submit">
+              Yuborish
+            </button>
+
+           </form>
+
+           <div class="second__modal">
+             <h3 class="second__title">
+              Arizangiz muvaffaqiyatli yuborildi
+             </h3>
+             <img class="second__image" src="./images/siprise.svg" alt="succies">
+             <p class="secon_text">
+              Tez orada operatorlarimiz siz bilan bog’lanishadi
+             </p>
+
+             <button class="second__btn">
+              Ok
+             </button>
+           </div>
+        </div>
+
       </div>
     </section>
   </div>
@@ -133,28 +194,28 @@
       <div class="container">
         <ul class="counter__list">
           <li class="counter__item">
-            <span class="counter__count">7</span>
+            <span class="counter__count count_experience">7</span>
             <span class="counter__description">
               yillik tajriba 
             </span>
           </li>
 
           <li class="counter__item">
-            <span class="counter__count">10k+</span>
+            <span class="counter__count count_clients">10k+</span>
             <span class="counter__description">
               mamnun mijozlar
             </span>
           </li>
 
           <li class="counter__item">
-            <span class="counter__count">10</span>
+            <span class="counter__count count_warranty">10</span>
             <span class="counter__description">
               yillik kafolat
             </span>
           </li>
 
           <li class="counter__item">
-            <span class="counter__count">3</span>
+            <span class="counter__count count_delivery">3</span>
             <span class="counter__description">
               kunda yetkazish 
             </span>
@@ -163,10 +224,677 @@
       </div>
     </section>
 
+    <section class="product">
+      <div class="container">
+        <h2 class="product__title">
+          Bizning mahsulotlar
+        </h2>
+        <ul class="product__list">
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Barchasi
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Model <span>A+</span> 
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Model <span>B+</span> 
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Model <span>C</span> 
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Model <span>C+</span> 
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Model <span>D</span>  
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Model <span>Yevro</span>   
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Yangi <span>tovarlar</span>  
+            </a>
+          </li>
+          <li class="product__item">
+            <a href="/" class="product__link">
+              Model <span>A</span>   
+            </a>
+          </li>
+        </ul>
+        <span class="line"></span>
+
+        <ul class="product__box buying">
+          <!-- <li class="buying__item">
+            <div class="buying__wrap wrap">
+              <a class="wrap__link" href="#">
+                Yangi mahsulot
+              </a>
+              <h4 class="buying__title">
+                Ortopedik Eko matras
+              </h4>
+              <img class="wrap__img" src="./images/moto_min.png" alt="moto">
+              <img class="wrap__img--two" src="./images/moto_max.png" alt="moto">
+            </div>
+
+            <div class="buying__info">
+              <h4 class="buying__title--two">
+                Ortopedik Eko matras
+              </h4>
+              <ul class="buying__content content">
+                <li class="content__item">
+                  <span class="content__type">Yuklama</span>
+                  <strong class="content__size">150 <span>kg</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Kafolat</span>
+                  <strong class="content__size">3 <span>yil</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">O’lchami</span>
+                  <strong class="content__size">200x120x40</strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Sig’imi</span>
+                  <strong class="content__size">2 <span> kishilik</span></strong>
+                </li>
+              </ul>
+              <p class="buying__text">
+                Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.
+              </p>
+
+              <div class="content__cash cash">
+                <span class="cash__price">Narxi</span>
+                <strong class="cash__value">1 699 999<span>so'm</span></strong>
+              </div>
+
+              <button class="content__order">
+                Buyurtma berish
+              </button>
+            </div>
+          </li>
+
+          <li class="buying__item">
+            <div class="buying__wrap wrap">
+              <a class="wrap__link" href="#">
+                Yangi mahsulot
+              </a>
+              <h4 class="buying__title">
+                Ortopedik Eko matras
+              </h4>
+              <img class="wrap__img" src="./images/moto_min.png" alt="moto">
+              <img class="wrap__img--two" src="./images/moto_max.png" alt="moto">
+            </div>
+
+            <div class="buying__info">
+              <h4 class="buying__title--two">
+                Ortopedik Eko matras
+              </h4>
+              <ul class="buying__content content">
+                <li class="content__item">
+                  <span class="content__type">Yuklama</span>
+                  <strong class="content__size">150 <span>kg</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Kafolat</span>
+                  <strong class="content__size">3 <span>yil</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">O’lchami</span>
+                  <strong class="content__size">200x120x40</strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Sig’imi</span>
+                  <strong class="content__size">2 <span> kishilik</span></strong>
+                </li>
+              </ul>
+              <p class="buying__text">
+                Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.
+              </p>
+
+              <div class="content__cash cash">
+                <span class="cash__price">Narxi</span>
+                <strong class="cash__value">1 699 999<span>so'm</span></strong>
+              </div>
+
+              <button class="content__order">
+                Buyurtma berish
+              </button>
+            </div>
+          </li>
+
+          <li class="buying__item">
+            <div class="buying__wrap wrap">
+             <div class="wrap__linking">
+              <a class="wrap__link wrap__link--act " href="#">
+                Yangi mahsulot
+              </a>
+
+              <a class="wrap__link wrap__link--green" href="#">
+                Aksiya
+              </a>
+             </div>
+
+              <h4 class="buying__title">
+                Ortopedik Eko matras
+              </h4>
+              <img class="wrap__img" src="./images/moto_min.png" alt="moto">
+              <img class="wrap__img--two" src="./images/moto_max.png" alt="moto">
+            </div>
+
+            <div class="buying__info">
+              <h4 class="buying__title--two">
+                Ortopedik Eko matras
+              </h4>
+              <ul class="buying__content content">
+                <li class="content__item">
+                  <span class="content__type">Yuklama</span>
+                  <strong class="content__size">150 <span>kg</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Kafolat</span>
+                  <strong class="content__size">3 <span>yil</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">O’lchami</span>
+                  <strong class="content__size">200x120x40</strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Sig’imi</span>
+                  <strong class="content__size">2 <span> kishilik</span></strong>
+                </li>
+              </ul>
+              <p class="buying__text">
+                Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.
+              </p>
+
+              <div class="content__cash cash">
+                <span class="cash__price">Narxi</span>
+                <div class="cash__cover">
+                  <strong class="cash__value--red">1 699 999 <span> so'm</span></strong>
+                  <strong class="cash__value">1 699 999<span>so'm</span></strong>
+                </div>
+              </div>
+
+              <button class="content__order">
+                Buyurtma berish
+              </button>
+            </div>
+          </li> -->
+        </ul>
+
+        <h3 class="action__title">
+          Aksiyadagi mahsulotlar
+        </h3>
+
+        <ul class="product__action action">
+          <!-- <li class="buying__item action__item">
+            <div class="buying__wrap wrap">
+             <div class="wrap__linking">
+ 
+
+              <a class="wrap__link wrap__link--green wrap__link--none" href="#">
+                Aksiya
+              </a>
+             </div>
+
+              <h4 class="buying__title">
+                Ortopedik Eko matras
+              </h4>
+              <img class="wrap__img" src="./images/moto_min.png" alt="moto">
+              <img class="wrap__img--two" src="./images/moto_max.png" alt="moto">
+            </div>
+
+            <div class="buying__info">
+              <h4 class="buying__title--two">
+                Ortopedik Eko matras
+              </h4>
+              <ul class="buying__content content">
+                <li class="content__item">
+                  <span class="content__type">Yuklama</span>
+                  <strong class="content__size">150 <span>kg</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Kafolat</span>
+                  <strong class="content__size">3 <span>yil</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">O’lchami</span>
+                  <strong class="content__size">200x120x40</strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Sig’imi</span>
+                  <strong class="content__size">2 <span> kishilik</span></strong>
+                </li>
+              </ul>
+              <p class="buying__text">
+                Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.
+              </p>
+
+              <div class="content__cash cash">
+                <span class="cash__price">Narxi</span>
+                <div class="cash__cover">
+                  <strong class="cash__value--red">1 699 999 <span> so'm</span></strong>
+                  <strong class="cash__value">1 699 999<span>so'm</span></strong>
+                </div>
+              </div>
+
+              <button class="content__order">
+                Xarid qilish
+              </button>
+            </div>
+          </li>
+
+          <li class="buying__item action__item">
+            <div class="buying__wrap wrap">
+             <div class="wrap__linking">
+              <a class="wrap__link wrap__link--green wrap__link--none" href="#">
+                Aksiya
+              </a>
+             </div>
+
+              <h4 class="buying__title">
+                Lux Soft Memory
+              </h4>
+              <img class="wrap__img" src="./images/moto_min.png" alt="moto">
+              <img class="wrap__img--two" src="./images/red_moto.png" alt="moto">
+            </div>
+
+            <div class="buying__info">
+              <h4 class="buying__title--two">
+                Lux Soft Memory
+              </h4>
+              <ul class="buying__content content">
+                <li class="content__item">
+                  <span class="content__type">Yuklama</span>
+                  <strong class="content__size">150 <span>kg</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Kafolat</span>
+                  <strong class="content__size">3 <span>yil</span></strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">O’lchami</span>
+                  <strong class="content__size">200x120x40</strong>
+                </li>
+
+                <li class="content__item">
+                  <span class="content__type">Sig’imi</span>
+                  <strong class="content__size">2 <span> kishilik</span></strong>
+                </li>
+              </ul>
+              <p class="buying__text">
+                Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.
+              </p>
+
+              <div class="content__cash cash">
+                <span class="cash__price">Narxi</span>
+                <div class="cash__cover">
+                  <strong class="cash__value--red">1 699 999 <span> so'm</span></strong>
+                  <strong class="cash__value">1 699 999<span>so'm</span></strong>
+                </div>
+              </div>
+
+              <button class="content__order">
+                Xarid qilish
+              </button>
+            </div>
+          </li> -->
+        </ul>
+
+       
+      </div>
+    </section>
+
+    <section class="movie">
+      <div class="container">
+        <h2 class="movie__title">
+          Ishlab chiqarish texnologiyalari
+        </h2>
+        <ul class="movie__list">
+          
+          <!-- <li class="movie__item youtube">
+           <h3 class="youtube__title">
+            Memoriform
+           </h3>
+           <div class="youtube__wrap">
+            
+            <iframe class="youtube__link" src="https://www.youtube.com/embed/aUYVsv5yqcg" title="Что такое ChatGPT?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </div>
+  
+           <p class="youtube__desc">
+            Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.
+           </p>
+          </li> -->
+
+          <!-- <li class="movie__item youtube">
+            <h3 class="youtube__title">
+              Tabiiy lateks
+            </h3>
+            <div class="youtube__wrap">
+             <iframe class="youtube__link" src="https://www.youtube.com/embed/aUYVsv5yqcg" title="Что такое ChatGPT?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+   
+            <p class="youtube__desc">
+              Aliquam euismod ornare justo, sed faucibus eu. Sed amet tellus netus quis bibendum. Euismod diam eu sem tristique aenean rhoncus.
+            </p>
+           </li>
+
+           <li class="movie__item youtube">
+            <h3 class="youtube__title">
+              Mustaqil prujina
+            </h3>
+            <div class="youtube__wrap">
+             <iframe class="youtube__link" src="https://www.youtube.com/embed/aUYVsv5yqcg" title="Что такое ChatGPT?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+   
+            <p class="youtube__desc">
+              Enim urna consequat, justo, cras tincidunt imperdiet orci sodales. Dui purus feugiat morbi quam orci, vel. Elementum tincidunt blandit ultricies venenatis rhoncus.
+            </p>
+           </li> -->
+        </ul>
+
+        <ul class="movie__office office">
+          <li class="office__item">
+            <div class="office__info office__info--one">
+              <h4 class="office__title">
+                Dream Cloud kompaniyasi haqida
+              </h4>
+              <p class="office__text">
+                Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum:
+              </p>
+              <ul class="offise__dubleList dublelist">
+                <li class="dublelist__item">
+                  Penatibus viverra gravida rhoncus in.
+                </li>
+                <li class="dublelist__item">
+                  Dolor integer in interdum viverra risus dolor enim.
+                </li>
+                <li class="dublelist__item">
+                  Turpis senectus eu, eget aenean nulla pellentesque sed ut tempor.
+                </li>
+              </ul>
+            </div>
+
+            <div class="office__wrap office__wrap--one">
+              <iframe class="office__link" src="https://www.youtube.com/embed/jLfJ5vB9GcQ" title="ChatGPT: Как Он Работает, Кто За Ним Стоит, Почему Он Убьет Интернет [netstalkers]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </li>
+
+          <li class="office__item office__item--two">
+            <div class="office__info office__info--two">
+              <p class="office__text">
+                Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae. Scelerisque id fusce vitae ut. Integer sed vulputate sed nec. Arcu id mattis erat et id. 
+              </p>
+              <ol class="offise__dubleList offise__dubleList--two dublelist">
+                <li class="dublelist__item">
+                  Penatibus viverra gravida rhoncus in.
+                </li>
+                <li class="dublelist__item">
+                  Dolor integer in interdum viverra risus dolor enim.
+                </li>
+                <li class="dublelist__item">
+                  Turpis senectus eu, eget aenean nulla pellentesque sed ut tempor.
+                </li>
+              </ol>
+              <p class="office__text office__text--two">
+                Ac tortor volutpat pellentesque mauris nisi, praesent. Et tempus accumsan est elementum feugiat arcu mauris tincidunt. Eget faucibus pharetra et luctus eget ut fames. A cursus elementum egestas eu scelerisque id.
+              </p>
+            </div>
+
+            <div class="office__wrap office__wrap--two">
+              <img class="office__link" src="./images/office.jpg" alt="office">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="papular">
+      <div class="container">
+        <h2 class="popular__title">
+          Nega bizni tanlashadi
+        </h2>
+
+        <ul class="popular__list">
+          <li class="popular__item">
+            <img class="popular__img" src="./images/popular-one.jpg" alt="template">
+            <div class="popular__info mini">
+              <h3 class="mini__title">
+                Yetkazib berish
+              </h3>
+              <p class="mini__text">
+                Toshkent bo'ylab bepul o'lchov va etkazib berish
+              </p>
+            </div>
+          </li>
+
+          <li class="popular__item popular__item--midle">
+            <img class="popular__img" src="./images/popular-two.jpg" alt="template">
+            <div class="popular__info mini">
+              <h3 class="mini__title">
+                Qo'llab-quvvatlash
+              </h3>
+              <p class="mini__text mini__text--two">
+                Bizning qo'llab-quvvatlash xizmati sizga har qanday savolda yordam beradi va menejerlarning 
+              </p>
+
+              <a class="mini__link" href="tel:+998 97 144-24-42">
+                +998 97 144-24-42
+              </a>
+            </div>
+          </li>
+
+          <li class="popular__item">
+            <img class="popular__img" src="./images/popular-three.jpg" alt="template">
+            <div class="popular__info mini">
+              <h3 class="mini__title">
+                Kafolat
+              </h3>
+              <p class="mini__text">
+                Biz matraslarimiz uchun 8 yilgacha kafolat beramiz. Agar matras kamida 25 mm qisqartirilsa.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="travel">
+      <div class="container">
+        <ul class="travel__ownList">
+
+          <!-- <li class="travel__ownItem">
+            <div class="travel__wrap">
+
+              <div class="travel__info">
+                <h3 class="travel__title">
+                  Manzilimiz
+                </h3>
+        
+                <div class="travel__cover">
+                  <ul class="travel__list">
+                    <li class="travel__item">
+                      <img class="travel__img" src="./images/temp.jpg" alt="template">
+                    </li>
+                    <li class="travel__item">
+                      <img class="travel__img" src="./images/temp.jpg" alt="template">
+                    </li>
+                    <li class="travel__item">
+                      <img class="travel__img" src="./images/temp.jpg" alt="template">
+                    </li>
+                  </ul>
+                </div>
+        
+                <p class="travel__desc">
+                  Toshkent, Parkent ko'chasi, 176-uy
+                </p>
+        
+                <p class="travel__text">
+                  Mo’ljal: Qoraqamish 2/1, Tursunxodjayeva ro’parasi, Milliy bog’ metro bekati.
+                </p>
+        
+                <a class="travel__location" href="#" target="blank">
+                  Geolokatsiya
+                </a>
+              </div>
+      
+              <div class="travel__carousel carousel-on">
+                <div class="travel__cover">
+                  <ul class="travel__list">
+                    <li class="travel__item">
+                      <img class="travel__img" src="./images/temp.jpg" alt="template">
+                    </li>
+                    <li class="travel__item">
+                      <img class="travel__img" src="./images/temp.jpg" alt="template">
+                    </li>
+                    <li class="travel__item">
+                      <img class="travel__img" src="./images/temp.jpg" alt="template">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+             </div>
+          </li> -->
+
+        </ul>
+       
+
+      </div>
+    </section>
+
+    <section class="interes">
+      <div class="container">
+        <div class="interes__inner">
+          <div class="interes__info">
+            <h2 class="interes__title">
+              Sizni qiziqtirdimi?
+            </h2>
+            <p class="interes__text">
+              Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz
+            </p>
+          </div>
+          <form class="interes__form" method="POST">
+
+           <label class="interes__wrap">
+             <span class="interes__count">+998</span>
+            <input class="interes__input" type="tel" name="your_tel" placeholder=" Raqamingizni yozing" >
+           </label>
+            
+            <button class="interes__btn" type="submit">
+              Yuborish
+            </button>
+          </form>
+        </div>
+        <div class="interes__second second">
+         <div class="second__wrap">
+          <h2 class="second__title">
+            Arizangiz muvaffaqiyatli qabul qilindi ✅
+          </h2>
+          <p class="second__text">
+            Siz bilan tez orada bog’lanamiz 😊
+          </p>
+         </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top high">
+         <ul class="high__list">
+          <li class="high__item">
+            <a class="high__link" href="#">
+              Biz haqimizda
+            </a>
+          </li>
+          <li class="high__item">
+            <a class="high__link" href="#">
+              Katalog
+            </a>
+          </li>
+          <li class="high__item">
+            <a class="high__link" href="#">
+              Aksiya
+            </a>
+          </li>
+          <li class="high__item">
+            <a class="high__link" href="#">
+              Manzilimiz
+            </a>
+          </li>
+         </ul>
 
+         <ul class="high__icon icon">
+           <li class="icon__item">
+            <a class="icon__link" href="https://www.facebook.com/" target="blank">
+              <img src="./images/Facebook.svg" alt="Facebook">
+            </a>
+           </li>
+           <li class="icon__item">
+            <a class="icon__link" href="https://twitter.com/" target="blank">
+              <img src="./images/Twitter.svg" alt="Twitter">
+            </a>
+           </li>
+           <li class="icon__item">
+            <a class="icon__link" href="https://vimeo.com/" target="blank">
+              <img src="./images/Vimeo.svg" alt="Vimeo">
+            </a>
+           </li>
+           <li class="icon__item">
+            <a class="icon__link" href="https://www.youtube.com/" target="blank">
+              <img src="./images/Youtube.svg" alt="Youtube">
+            </a>
+           </li>
+         </ul>
+      </div>
+      <span class="footer__line"></span>
+
+      <div class="footer__down down">
+        <div class="down__wrap">
+          <span class="down__span">
+            <img class="down__image" src="./images/text.svg" alt="text">
+          </span>
+          <a class="down__link" href="#">
+            <img class="down__img" src="./images/tech.svg" alt="text">
+          </a>
+        </div>
+        <a class="down__top" href="#"></a>
+        <p class="down__text">
+          © 2021 Dream Cloud. Barcha huquqlar himoyalangan.
+        </p>
+      </div>
+    </div>
   </footer>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

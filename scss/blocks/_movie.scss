@@ -1,0 +1,282 @@
+.movie{
+  padding-bottom: 90px;
+  overflow-x: hidden;
+}
+
+.movie__list{
+  padding-bottom: 100px;
+}
+
+.youtube{
+  text-align: center;
+}
+
+.movie__item{
+  width: 100%;
+  max-width: 407px;
+}
+
+.movie__title{
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+color: #01384D;
+}
+
+.youtube__title{
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 26px;
+text-align: center;
+color: #01384D;
+}
+
+.youtube__wrap{
+  width: 100%;
+  max-width: 407px;
+  height: 230px;
+  margin: 0 auto;
+  border: 3px solid #01384D;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+
+.youtube__link{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.youtube__desc{
+  margin: 0;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #01384D;
+}
+
+.movie{
+
+  .slick-track{
+    // width: 100% !important;
+    // max-width: 1960px !important;
+  }
+
+  .slick-dots{
+    bottom: 60px !important;
+  }
+
+}
+
+@include media-min(400px){
+.movie__item{
+  margin:0 10px;
+}
+}
+
+@include media-min(768px){
+  .movie__list{
+    padding-bottom: 140px;
+  }
+  .movie{
+    padding-bottom: 120px;
+  }
+
+  .movie__item{
+    margin:0 15px;
+  }
+
+  .movie__title{
+    margin: 0;
+    margin-bottom: 87px;
+    font-size: 50px;
+    line-height: 59px;
+  }
+
+  .youtube__title{
+    margin: 0;
+    margin-bottom: 25px;
+  font-size: 30px;
+  line-height: 35px;
+  }
+
+  .youtube__wrap{
+    width: 100%;
+    max-width: 407px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid #01384D;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  }
+
+  .youtube__desc{
+    font-size: 18px;
+line-height: 26px;
+  }
+}
+
+// office
+
+.movie__office{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.office__info{
+  width: 100%;
+  max-width: 609px;
+}
+
+.office__title{
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+color: #01384D;
+}
+
+.office__text{
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #01384D;
+}
+
+.offise__dubleList{
+  list-style: disc;
+  padding: 25px 20px 25px 30px;
+  background-color: #EABF9F;
+border: 2px solid #01384D;
+border-radius: 8px;
+margin-bottom: 30px;
+}
+
+.offise__dubleList--two{
+  list-style: decimal;
+}
+
+.dublelist__item{
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #01384D;
+margin-bottom: 10px;
+}
+
+.dublelist__item:last-child{
+margin-bottom: 0px;
+}
+
+.office__wrap{
+  width: 100%;
+  max-width: 625px;
+  height: 234px;
+  background-image:url(../../images/play.svg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.office__link{
+  width: 100%;
+  height: 100%;
+}
+
+.office__item:first-child{
+  margin-bottom: 30px;
+}
+
+.office__info--one{
+  margin: 0 auto;
+}
+
+.office__wrap--one{
+  margin: 0 auto;
+}
+
+.office__text--two{
+  margin-bottom: 30px;
+}
+
+.office__info--two{
+  margin: 0 auto;
+}
+
+.office__wrap--two{
+  margin: 0 auto;
+}
+
+@include media-min(768px){
+
+  .office__title{
+    margin-bottom: 28px;
+  font-size: 50px;
+line-height: 64px;
+  }
+
+
+
+  .dublelist__item{
+  line-height: 29px;
+  }
+
+  .office__wrap{
+    width: 100%;
+    height: 400px;
+  }
+
+ 
+
+}
+
+@include media-min(900px){
+  .offise__dubleList{
+    margin-bottom: 0px;
+    }
+
+  .office__item{
+    display: flex;
+    align-items: center;
+  }
+
+  .office__item--two{
+    flex-direction: row-reverse;
+  }
+
+  .office__info--one{
+    margin: 0;
+    margin-right: 46px;
+  }
+
+  .office__wrap--two{
+    margin-right: 87px;
+  }
+
+  .office__item:first-child{
+    margin-bottom: 80px;
+  }
+}
+
