@@ -1,14 +1,11 @@
-
-.travel{
+.travel {
   padding-bottom: 70px;
   // text-align: center;
   overflow-x: hidden;
 }
 
-.travel{
-
-  
-  .slick-dots{
+.travel {
+  .slick-dots {
     width: 100%;
     height: 5px;
     background-color: white;
@@ -17,8 +14,8 @@
     border: 0.5px solid black;
     bottom: 0px !important;
   }
-  
-  .slick-dots li{
+
+  .slick-dots li {
     position: relative;
     display: inline-block;
     width: 50px !important;
@@ -29,7 +26,7 @@
     left: 0px;
     cursor: pointer;
   }
-  
+
   .slick-dots li button {
     font-size: 0;
     line-height: 0;
@@ -45,9 +42,9 @@
     background-color: white !important;
     background: transparent;
   }
-  
+
   .slick-dots li button:before {
-    font-family: 'slick';
+    font-family: "slick";
     font-size: 6px;
     line-height: 20px;
     position: absolute;
@@ -55,7 +52,7 @@
     left: 0;
     width: 50px !important;
     height: 5px !important;
-    content: '';
+    content: "";
     text-align: center;
     opacity: 0;
     color: white;
@@ -63,10 +60,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
-  .slick-dots li.slick-active button:before
-  {
-    opacity: .75;
+
+  .slick-dots li.slick-active button:before {
+    opacity: 0.75;
     color: white;
     background-color: black;
   }
@@ -75,121 +71,121 @@
     position: relative;
     display: block;
     // overflow:  ;
-}
+  }
 }
 
-.travel__info{
+.travel__info {
   margin: 0 auto;
 }
 
-.travel__title{
+.travel__title {
   margin: 0;
   margin-bottom: 20px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 28px;
-color: #01384D;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #01384d;
 }
 
-.travel__cover{
+.travel__cover {
   overflow-x: hidden;
   width: 100%;
   max-width: 525px;
   margin-bottom: 25px;
 }
 
-.travel__list{
+.travel__list {
   width: 100%;
   max-width: 525px;
 }
 
-.travel__img{
+.travel__img {
   width: 100%;
 }
 
-.travel__desc{
-  font-family: 'Josefin Sans';
+.travel__desc {
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 18px;
-  color: #01384D;
+  color: #01384d;
   margin: 0;
   margin-bottom: 10px;
 }
 
-.travel__text{
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #01384D;
-margin: 0;
+.travel__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #01384d;
+  margin: 0;
   margin-bottom: 25px;
 }
 
-.travel__location{
+.travel__location {
   width: 100%;
   max-width: 360px;
   display: flex;
   justify-content: center;
-font-size: 14px;
-line-height: 16px;
-color: #01384D;
-text-decoration: none;
-padding: 10px 0;
-background-color: #FFFFFF;
-border: 2px solid #01384D;
-border-radius: 5px;
-position: relative;
-display: flex;
-align-items: self-start;
-transition: all 0.3s ease;
-&::before{
-  content: "";
-  width: 12px;
-  height: 16px;
-  background-image: url(../../images/Location.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  margin-right: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #01384d;
+  text-decoration: none;
+  padding: 10px 0;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: self-start;
   transition: all 0.3s ease;
-}
-&:hover{
-  color:  #FFFFFF;
-  background-color: #01384D;
-  transition: all 0.3s ease;
-  &::before{
-    background-image: url(../../images/Location-light.svg);
+  &::before {
+    content: "";
+    width: 12px;
+    height: 16px;
+    background-image: url(../../images/Location.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 12px;
     transition: all 0.3s ease;
   }
-}
+  &:hover {
+    color: #ffffff;
+    background-color: #01384d;
+    transition: all 0.3s ease;
+    &::before {
+      background-image: url(../../images/Location-light.svg);
+      transition: all 0.3s ease;
+    }
+  }
 }
 
-.travel__info{
-  .travel__cover{
+.travel__info {
+  .travel__cover {
     display: block;
   }
 }
 
-.carousel-on{
+.carousel-on {
   display: none;
 }
 
-.travel__info{
+.travel__info {
   width: 100%;
   max-width: 481px;
 }
 
-.youtube__wrap{
+.youtube__wrap {
   position: relative;
 }
 
-.tout__img{
+.tout__img {
   width: 100%;
   position: absolute;
   max-width: 405px;
@@ -199,11 +195,11 @@ transition: all 0.3s ease;
   z-index: 4;
 }
 
-.ytNone{
+.ytNone {
   display: none;
 }
 
-.space__btn{
+.space__btn {
   width: 60px;
   height: 60px;
   border: none;
@@ -217,11 +213,11 @@ transition: all 0.3s ease;
   left: 43%;
 }
 
-@include media-min(768px){
-  .travel{
+@include media-min(768px) {
+  .travel {
     padding-bottom: 90px;
   }
-  .tout__img{
+  .tout__img {
     width: 100%;
     position: absolute;
     max-width: 405px;
@@ -230,64 +226,56 @@ transition: all 0.3s ease;
     border-radius: 10px;
     z-index: 4;
   }
- 
 
-  .travel__title{
+  .travel__title {
     margin-bottom: 50px;
-  font-size: 50px;
-  line-height: 59px;
+    font-size: 50px;
+    line-height: 59px;
   }
 
-  .travel__cover{
+  .travel__cover {
     margin-bottom: 0px;
   }
 
-  .travel__desc{
+  .travel__desc {
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 15px;
   }
 
-  .travel__text{
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 46px;
+  .travel__text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 46px;
   }
 
-
-
-  .travel__location{
+  .travel__location {
     font-size: 18px;
     line-height: 21px;
   }
-
-
-
 }
 
-@include media-min(1024px){
-
-  .travel__info{
+@include media-min(1024px) {
+  .travel__info {
     margin: 0 0;
   }
 
-.travel__info{
-  margin-right: 20px;
-}
+  .travel__info {
+    margin-right: 20px;
+  }
 
-  .travel__info{
-    .travel__cover{
+  .travel__info {
+    .travel__cover {
       display: none;
     }
   }
 
-
-  .travel__wrap{
+  .travel__wrap {
     display: flex;
     justify-content: space-between;
   }
 
-  .carousel-on{
+  .carousel-on {
     display: block;
   }
 
@@ -296,5 +284,4 @@ transition: all 0.3s ease;
   //     display: block !important;
   //   }
   // }
-
 }

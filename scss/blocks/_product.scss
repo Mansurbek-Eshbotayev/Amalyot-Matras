@@ -1,59 +1,58 @@
-.product{
+.product {
   position: relative;
   padding-bottom: 90px;
 }
-.product__title{
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 28px;
-margin: 0;
-margin-bottom: 54px;
-text-align: center;
-color: #01384D;
+.product__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 54px;
+  text-align: center;
+  color: #01384d;
 }
 
-.product__list{
-
+.product__list {
   display: flex;
   align-items: center;
   overflow-x: hidden;
   margin-bottom: 54px;
 }
 
-.product__item{
+.product__item {
   margin-right: 40px;
 }
 
-.product__link{
+.product__link {
   text-decoration: none;
- 
+
   padding-bottom: 15px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-text-align: center;
-color: #01384D;
-display: inline-block;
-opacity: 0.6;
-display: flex;
-span{
-  margin-left: 5px;
-}
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #01384d;
+  display: inline-block;
+  opacity: 0.6;
+  display: flex;
+  span {
+    margin-left: 5px;
+  }
 }
 
-.product__item:first-child{
-  .product__link{
-    color: #01384D;
-    border-bottom: 3px solid #01384D;
+.product__item:first-child {
+  .product__link {
+    color: #01384d;
+    border-bottom: 3px solid #01384d;
     opacity: 1;
   }
 }
 
-.line{
+.line {
   position: absolute;
   left: 0;
   right: 0;
@@ -62,68 +61,68 @@ span{
   background-color: rgba(1, 56, 77, 0.3);
 }
 
-@include media-min(768px){
-  .product{
+@include media-min(768px) {
+  .product {
     padding-bottom: 138px;
   }
-  .product__title{
-  font-size: 50px;
-  line-height: 59px;
-  margin: 0;
-  margin-bottom: 77px;
-  text-align: center;
+  .product__title {
+    font-size: 50px;
+    line-height: 59px;
+    margin: 0;
+    margin-bottom: 77px;
+    text-align: center;
   }
 
-  .product__item{
+  .product__item {
     margin-right: 0px;
   }
 
-  .product__item:first-child{
+  .product__item:first-child {
     margin-right: 30px;
   }
 
-  .product__link{
+  .product__link {
     font-size: 16px;
     line-height: 19px;
     padding-bottom: 17px;
     padding: 13px 30px;
   }
 
-  .product__item:first-child{
-    .product__link{
-        padding-right: 0;
-        padding-left: 0;
+  .product__item:first-child {
+    .product__link {
+      padding-right: 0;
+      padding-left: 0;
     }
   }
 
-  .product__item:nth-child(2){
-    .product__link{
-    padding: 13px 30px;
-    background-color: #E6EBED;
+  .product__item:nth-child(2) {
+    .product__link {
+      padding: 13px 30px;
+      background-color: #e6ebed;
 
-     border-radius: 5px;
+      border-radius: 5px;
     }
   }
 
-  .line{
-    top: 183px ;
+  .line {
+    top: 183px;
   }
 }
 
 // Product
 
-.product__box{
+.product__box {
   margin-bottom: 80px;
 }
-.buying__item{
-  padding: 20px 20px 30px 20px ;
-  background-color: #F6FBFF;
-border: 1px solid #C7DFF5;
-margin-bottom: 30px;
+.buying__item {
+  padding: 20px 20px 30px 20px;
+  background-color: #f6fbff;
+  border: 1px solid #c7dff5;
+  margin-bottom: 30px;
 }
 
-.wrap__link{
-  font-family: 'Raleway';
+.wrap__link {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -132,328 +131,321 @@ margin-bottom: 30px;
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 30px;
-  background-color: #FF6B6B;
+  background-color: #ff6b6b;
   display: inline-block;
-border-radius: 5px;
-  color: #FFFFFF;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
-.buying__title{
+.buying__title {
   margin: 0;
   margin-top: 25px;
   margin-bottom: 40px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 22px;
-color: #01384D;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  color: #01384d;
 }
 
-.wrap__img--two{
+.wrap__img--two {
   display: none;
 }
 
-.wrap__img{
+.wrap__img {
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
 
-.buying__title--two{
+.buying__title--two {
   display: none;
 }
 
-.buying__content{
+.buying__content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
-.content__item{
+.content__item {
   display: flex;
   flex-direction: column;
   margin: 0 10px;
 }
 
 .content__item:nth-child(1),
-.content__item:nth-child(3){
-   margin-bottom: 30px;
+.content__item:nth-child(3) {
+  margin-bottom: 30px;
 }
 
-.content__type{
-  font-family: 'Josefin Sans';
+.content__type {
+  font-family: "Josefin Sans";
   display: inline-block;
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.6;
 }
 
-.content__size{
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 23px;
-line-height: 26px;
-color: #01384D;
-span{
-  font-size: 14px;
-line-height: 14px;
-}
+.content__size {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 26px;
+  color: #01384d;
+  span {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 
-.buying__text{
+.buying__text {
   margin: 0;
   margin-bottom: 30px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 23px;
-color: #01384D;
-opacity: 0.6;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #01384d;
+  opacity: 0.6;
 }
 
 // cash
 
-.content__cash{
+.content__cash {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
 }
 
-.cash__price{
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-color: #01384D;
-opacity: 0.6;
-margin-bottom: 10px;
-}
-
-.cash__value{
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 30px;
-color: #01384D;
-span{
+.cash__price {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-line-height: 16px;
-margin-left: 5px;
-}
+  line-height: 16px;
+  color: #01384d;
+  opacity: 0.6;
+  margin-bottom: 10px;
 }
 
-.content__order{
+.cash__value {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #01384d;
+  span {
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+  }
+}
+
+.content__order {
   position: relative;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-padding: 15px 24px;
-background-color: #FFFFFF;
-border: 2px solid #01384D;
-border-radius: 5px;
-color: #01384D;
-display: flex;
-align-items: center;
-&::after{
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-image:url(../../images/cart.svg) ;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  margin-left: 15px;
-}
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 15px 24px;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
+  border-radius: 5px;
+  color: #01384d;
+  display: flex;
+  align-items: center;
+  &::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url(../../images/cart.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-left: 15px;
+  }
 }
 
-.wrap__link--green{
+.wrap__link--green {
   line-height: 14px;
-  background-color: #1FCA25;
+  background-color: #1fca25;
 }
 
-.cash__value--red{
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 21px;
-text-decoration-line: line-through;
-color: #FF5D5D;
-opacity: 0.8;
-margin-right: 20px;
+.cash__value--red {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration-line: line-through;
+  color: #ff5d5d;
+  opacity: 0.8;
+  margin-right: 20px;
 }
 
-.wrap__link--act{
+.wrap__link--act {
   display: none;
 }
 
-
-
-@include media-min(450px){
-  .content__item{
+@include media-min(450px) {
+  .content__item {
     margin: 0 20px;
   }
 }
 
-@include media-min(768px){
-  .product__box{
+@include media-min(768px) {
+  .product__box {
     margin-bottom: 100px;
   }
 
-  .buying__list{
-    padding: 20px 40px 30px 30px ;;
+  .buying__list {
+    padding: 20px 40px 30px 30px;
   }
 
-  .wrap__link{
+  .wrap__link {
     line-height: 16px;
   }
 
-  .buying__item{
+  .buying__item {
     display: flex !important;
     justify-content: space-between;
   }
 
   .content__item:nth-child(1),
-.content__item:nth-child(3){
-   margin-bottom: 20px;
+  .content__item:nth-child(3) {
+    margin-bottom: 20px;
+  }
+
+  .content__item {
+    margin: 0 20px;
+  }
+
+  .buying__info {
+    width: 100%;
+    max-width: 636px;
+  }
+
+  .buying__wrap {
+    margin-right: 100px;
+  }
+
+  .buying__title {
+    display: none;
+  }
+
+  .wrap__img {
+    display: none;
+  }
+
+  .wrap__img--two {
+    display: block;
+    width: 100%;
+    max-width: 464px;
+    margin-top: 66px;
+  }
+
+  .buying__title--two {
+    display: block;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 33px;
+
+    color: #01384d;
+  }
+
+  .buying__content {
+    margin-bottom: 20px;
+  }
+
+  .content__type {
+    margin-bottom: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .content__size {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .buying__text {
+    margin-bottom: 25px;
+  }
+
+  .cash__value {
+    line-height: 35px;
+  }
+
+  .content__cash {
+    margin-bottom: 25px;
+  }
+
+  .content__order {
+    line-height: 19px;
+  }
+
+  .wrap__link--green {
+    line-height: 14px;
+    background-color: #1fca25;
+    margin-left: 30px;
+  }
 }
 
-.content__item{
-  margin: 0 20px;
-}
-
-.buying__info{
-width: 100%;
-max-width: 636px;
-}
-
-.buying__wrap{
-  margin-right: 100px;
-}
-
-.buying__title{
-  display: none;
-}
-
-.wrap__img{
-  display: none;
-}
-
-.wrap__img--two{
-  display: block;
-  width: 100%;
-  max-width: 464px;
-  margin-top: 66px;
-}
-
-.buying__title--two{
-  display: block;
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-margin: 0;
-margin-top: 10px;
-margin-bottom: 33px;
-
-color: #01384D;
-}
-
-.buying__content {
-  margin-bottom: 20px;
-}
-
-.content__type {
-  margin-bottom: 7px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.content__size {
-  font-size: 30px;
-  line-height: 35px;
-}
-
-.buying__text{
-  margin-bottom: 25px;
-}
-
-.cash__value {
-  line-height: 35px;
-}
-
-.content__cash{
-  margin-bottom: 25px;
-}
-
-.content__order {
-  line-height: 19px;
-}
-
-.wrap__link--green{
-  line-height: 14px;
-  background-color: #1FCA25;
-  margin-left: 30px;
-}
-
-
-
-
-}
-
-@include media-min(984px){
+@include media-min(984px) {
   .content__item:nth-child(1),
-.content__item:nth-child(3){
-   margin-bottom: 0px;
-}
+  .content__item:nth-child(3) {
+    margin-bottom: 0px;
+  }
 
-.wrap__link--act{
-  display: inline-block;
-}
+  .wrap__link--act {
+    display: inline-block;
+  }
 
-.wrap__linking{
-  display: flex;
-}
+  .wrap__linking {
+    display: flex;
+  }
 }
 
 // aksya
 
-.action__title{
+.action__title {
   margin: 0;
   margin-bottom: 40px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-color: #01384D;
-text-align: center;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #01384d;
+  text-align: center;
 }
 
-.wrap__link--none{
+.wrap__link--none {
   margin-left: 0;
 }
 
-
-@include media-min(768px){
-  .action__title{
+@include media-min(768px) {
+  .action__title {
     margin-bottom: 60px;
-  font-size: 50px;
-  line-height: 50px;
+    font-size: 50px;
+    line-height: 50px;
   }
 }

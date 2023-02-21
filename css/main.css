@@ -406,7 +406,7 @@ ul {
 }
 
 .wrap-head {
-  background-color: #EABF9F;
+  background-color: #eabf9f;
 }
 
 .header {
@@ -473,7 +473,7 @@ ul {
 .nav-high {
   padding: 50px 20px 0px 30px;
   overflow-x: hidden;
-  background-color: #EABF9F !important;
+  background-color: #eabf9f !important;
   -webkit-animation-name: circle-to-square;
   animation-name: circle-to-square;
   -webkit-animation-duration: 2s;
@@ -489,7 +489,7 @@ ul {
 .header__nav {
   overflow-x: hidden;
   position: absolute;
-  background-color: #EABF9F;
+  background-color: #eabf9f;
   width: 100%;
   top: 0;
   right: 0;
@@ -511,7 +511,7 @@ ul {
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .header__btn {
@@ -521,16 +521,16 @@ ul {
   font-size: 16px;
   line-height: 16px;
   padding: 15px 30px;
-  color: #01384D;
-  background-color: #FFFFFF;
-  border: 2px solid #01384D;
+  color: #01384d;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
 }
 
 .wrap__number {
   margin-top: 90px;
   padding: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .header__tel {
@@ -539,7 +539,7 @@ ul {
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
-  color: #01384D;
+  color: #01384d;
   position: relative;
   display: flex;
   align-items: center;
@@ -603,7 +603,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #5E6E6E;
+    color: #5e6e6e;
   }
   .close-btn {
     display: none;
@@ -624,7 +624,7 @@ ul {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    color: #01384D;
+    color: #01384d;
     text-decoration: none;
     margin-right: 38px;
     position: relative;
@@ -721,7 +721,7 @@ ul {
   font-weight: 400;
   font-size: 35px;
   line-height: 55px;
-  color: #01384D;
+  color: #01384d;
   position: relative;
   margin: 0 auto;
 }
@@ -745,9 +745,9 @@ ul {
   line-height: 19px;
   padding: 13px 25px;
   margin-left: 5px;
-  color: #01384D;
-  background-color: #FFFFFF;
-  border: 2px solid #01384D;
+  color: #01384d;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
   position: relative;
   display: inline-block;
@@ -785,8 +785,8 @@ ul {
   top: 5%;
   left: 4%;
   position: absolute;
-  background-color: #F6FBFF;
-  border: 1px solid #C7DFF5;
+  background-color: #f6fbff;
+  border: 1px solid #c7dff5;
 }
 
 .modal_off {
@@ -820,14 +820,14 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .modal__name {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: none;
-  border: 2px solid #01384D;
+  border: 2px solid #01384d;
   border-radius: 5px;
   padding: 20px;
 }
@@ -837,7 +837,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.7;
 }
 
@@ -845,8 +845,8 @@ ul {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  background-color: #FFFFFF;
-  border: 2px solid #01384D;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
   margin-bottom: 30px;
 }
@@ -857,8 +857,8 @@ ul {
   font-size: 16px;
   line-height: 19px;
   padding: 21px 24px;
-  color: #FFFFFF;
-  background-color: #01384D;
+  color: #ffffff;
+  background-color: #01384d;
 }
 
 .modal__tel {
@@ -874,7 +874,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.7;
 }
 
@@ -884,7 +884,7 @@ ul {
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
-  color: #01384D;
+  color: #01384d;
   margin-bottom: 7px;
   display: inline-block;
 }
@@ -894,15 +894,15 @@ ul {
   width: 100%;
   padding: 20px 18px;
   bottom: none;
-  background: #FFFFFF;
-  border: 2px solid #01384D;
+  background: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
   margin-bottom: 25px;
 }
 
 .button__wrap {
-  background-color: #FFFFFF;
-  border: 2px solid #01384D;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -912,39 +912,39 @@ ul {
 .button_dec {
   padding: 16px 39px;
   border: none;
-  background-color: #FFFFFF;
-  border-left: 2px solid #01384D;
+  background-color: #ffffff;
+  border-left: 2px solid #01384d;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  color: #01384D;
+  color: #01384d;
   cursor: pointer;
   transition: all ease 0.3s;
 }
 .button_dec:hover {
   transition: all ease 0.3s;
-  background-color: #C7DFF5;
+  background-color: #c7dff5;
 }
 
 .button_inc {
   padding: 16px 39px;
   border: none;
-  background-color: #FFFFFF;
-  border-right: 2px solid #01384D;
+  background-color: #ffffff;
+  border-right: 2px solid #01384d;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  color: #01384D;
+  color: #01384d;
   cursor: pointer;
   transition: all ease 0.3s;
 }
 .button_inc:hover {
   transition: all ease 0.3s;
-  background-color: #C7DFF5;
+  background-color: #c7dff5;
 }
 
 .button__count {
@@ -956,7 +956,7 @@ ul {
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .modal_send {
@@ -968,8 +968,8 @@ ul {
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF;
-  background-color: #01384D;
+  color: #ffffff;
+  background-color: #01384d;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -982,8 +982,8 @@ ul {
   top: 5%;
   left: 0%;
   position: absolute;
-  background-color: #F6FBFF;
-  border: 1px solid #C7DFF5;
+  background-color: #f6fbff;
+  border: 1px solid #c7dff5;
 }
 
 .second__modal--on {
@@ -1001,7 +1001,7 @@ ul {
   font-size: 26px;
   line-height: 35px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
   margin: 0;
   margin-bottom: 25px;
 }
@@ -1018,7 +1018,7 @@ ul {
   font-size: 15px;
   line-height: 18px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
   margin: 0;
   margin-bottom: 27px;
 }
@@ -1032,9 +1032,9 @@ ul {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
-  background-color: #01384D;
+  background-color: #01384d;
   border-radius: 5px;
 }
 
@@ -1058,7 +1058,7 @@ ul {
     font-weight: 700;
     font-size: 70px;
     line-height: 90px;
-    color: #01384D;
+    color: #01384d;
     margin: 0;
     margin-bottom: 50px;
   }
@@ -1107,8 +1107,8 @@ ul {
     top: 5%;
     left: 35%;
     position: absolute;
-    background-color: #F6FBFF;
-    border: 1px solid #C7DFF5;
+    background-color: #f6fbff;
+    border: 1px solid #c7dff5;
   }
   .modal_exit {
     top: -20px;
@@ -1180,7 +1180,7 @@ ul {
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
-  color: #01384D;
+  color: #01384d;
   margin-bottom: 15px;
 }
 
@@ -1190,7 +1190,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: #01384D;
+  color: #01384d;
 }
 
 @media only screen and (min-width: 509px) {
@@ -1209,7 +1209,7 @@ ul {
     font-weight: 700;
     font-size: 100px;
     line-height: 111px;
-    color: #01384D;
+    color: #01384d;
     margin-bottom: 15px;
   }
   .counter__description {
@@ -1218,7 +1218,7 @@ ul {
     font-weight: 400;
     font-size: 17px;
     line-height: 18px;
-    color: #01384D;
+    color: #01384d;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1228,7 +1228,7 @@ ul {
     font-weight: 700;
     font-size: 120px;
     line-height: 141px;
-    color: #01384D;
+    color: #01384d;
     margin-bottom: 15px;
   }
   .counter__description {
@@ -1237,7 +1237,7 @@ ul {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #01384D;
+    color: #01384d;
   }
 }
 .product {
@@ -1254,7 +1254,7 @@ ul {
   margin: 0;
   margin-bottom: 54px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 .product__list {
@@ -1277,7 +1277,7 @@ ul {
   font-size: 16px;
   line-height: 16px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
   display: inline-block;
   opacity: 0.6;
   display: flex;
@@ -1287,8 +1287,8 @@ ul {
 }
 
 .product__item:first-child .product__link {
-  color: #01384D;
-  border-bottom: 3px solid #01384D;
+  color: #01384d;
+  border-bottom: 3px solid #01384d;
   opacity: 1;
 }
 
@@ -1330,7 +1330,7 @@ ul {
   }
   .product__item:nth-child(2) .product__link {
     padding: 13px 30px;
-    background-color: #E6EBED;
+    background-color: #e6ebed;
     border-radius: 5px;
   }
   .line {
@@ -1343,8 +1343,8 @@ ul {
 
 .buying__item {
   padding: 20px 20px 30px 20px;
-  background-color: #F6FBFF;
-  border: 1px solid #C7DFF5;
+  background-color: #f6fbff;
+  border: 1px solid #c7dff5;
   margin-bottom: 30px;
 }
 
@@ -1358,10 +1358,10 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 30px;
-  background-color: #FF6B6B;
+  background-color: #ff6b6b;
   display: inline-block;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .buying__title {
@@ -1373,7 +1373,7 @@ ul {
   font-weight: 700;
   font-size: 22px;
   line-height: 22px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .wrap__img--two {
@@ -1417,7 +1417,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.6;
 }
 
@@ -1427,7 +1427,7 @@ ul {
   font-weight: 700;
   font-size: 23px;
   line-height: 26px;
-  color: #01384D;
+  color: #01384d;
 }
 .content__size span {
   font-size: 14px;
@@ -1442,7 +1442,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.6;
 }
 
@@ -1458,7 +1458,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.6;
   margin-bottom: 10px;
 }
@@ -1469,7 +1469,7 @@ ul {
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
-  color: #01384D;
+  color: #01384d;
 }
 .cash__value span {
   font-size: 16px;
@@ -1485,10 +1485,10 @@ ul {
   font-size: 16px;
   line-height: 16px;
   padding: 15px 24px;
-  background-color: #FFFFFF;
-  border: 2px solid #01384D;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
-  color: #01384D;
+  color: #01384d;
   display: flex;
   align-items: center;
 }
@@ -1505,7 +1505,7 @@ ul {
 
 .wrap__link--green {
   line-height: 14px;
-  background-color: #1FCA25;
+  background-color: #1fca25;
 }
 
 .cash__value--red {
@@ -1515,7 +1515,7 @@ ul {
   font-size: 18px;
   line-height: 21px;
   text-decoration-line: line-through;
-  color: #FF5D5D;
+  color: #ff5d5d;
   opacity: 0.8;
   margin-right: 20px;
 }
@@ -1579,7 +1579,7 @@ ul {
     margin: 0;
     margin-top: 10px;
     margin-bottom: 33px;
-    color: #01384D;
+    color: #01384d;
   }
   .buying__content {
     margin-bottom: 20px;
@@ -1608,7 +1608,7 @@ ul {
   }
   .wrap__link--green {
     line-height: 14px;
-    background-color: #1FCA25;
+    background-color: #1fca25;
     margin-left: 30px;
   }
 }
@@ -1632,7 +1632,7 @@ ul {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: #01384D;
+  color: #01384d;
   text-align: center;
 }
 
@@ -1674,7 +1674,7 @@ ul {
   font-size: 28px;
   line-height: 36px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 .youtube__title {
@@ -1686,7 +1686,7 @@ ul {
   font-size: 26px;
   line-height: 26px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 .youtube__wrap {
@@ -1694,7 +1694,7 @@ ul {
   max-width: 407px;
   height: 230px;
   margin: 0 auto;
-  border: 3px solid #01384D;
+  border: 3px solid #01384d;
   border-radius: 10px;
   margin-bottom: 30px;
 }
@@ -1714,7 +1714,7 @@ ul {
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 .movie .slick-dots {
@@ -1753,7 +1753,7 @@ ul {
     max-width: 407px;
     height: 300px;
     margin: 0 auto;
-    border: 3px solid #01384D;
+    border: 3px solid #01384d;
     border-radius: 10px;
     margin-bottom: 30px;
   }
@@ -1780,7 +1780,7 @@ ul {
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .office__text {
@@ -1791,14 +1791,14 @@ ul {
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .offise__dubleList {
   list-style: disc;
   padding: 25px 20px 25px 30px;
-  background-color: #EABF9F;
-  border: 2px solid #01384D;
+  background-color: #eabf9f;
+  border: 2px solid #01384d;
   border-radius: 8px;
   margin-bottom: 30px;
 }
@@ -1813,7 +1813,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #01384D;
+  color: #01384d;
   margin-bottom: 10px;
 }
 
@@ -1909,15 +1909,15 @@ ul {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 .popular__item {
   width: 100%;
   max-width: 407px;
   margin: 0 auto;
-  background: #FFFFFF;
-  border: 2px solid #01384D;
+  background: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
   margin-bottom: 27px;
 }
@@ -1935,7 +1935,7 @@ ul {
   font-size: 18px;
   line-height: 18px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 .mini__text {
@@ -1946,7 +1946,7 @@ ul {
   font-size: 14px;
   line-height: 25px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.7;
 }
 
@@ -1965,7 +1965,7 @@ ul {
   line-height: 25px;
   text-align: center;
   text-decoration-line: underline;
-  color: #01384D;
+  color: #01384d;
 }
 
 .popular__info {
@@ -2086,7 +2086,7 @@ ul {
   font-weight: 700;
   font-size: 28px;
   line-height: 28px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .travel__cover {
@@ -2111,7 +2111,7 @@ ul {
   font-weight: 600;
   font-size: 18px;
   line-height: 18px;
-  color: #01384D;
+  color: #01384d;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -2122,7 +2122,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #01384D;
+  color: #01384d;
   margin: 0;
   margin-bottom: 25px;
 }
@@ -2134,11 +2134,11 @@ ul {
   justify-content: center;
   font-size: 14px;
   line-height: 16px;
-  color: #01384D;
+  color: #01384d;
   text-decoration: none;
   padding: 10px 0;
-  background-color: #FFFFFF;
-  border: 2px solid #01384D;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
   position: relative;
   display: flex;
@@ -2157,8 +2157,8 @@ ul {
   transition: all 0.3s ease;
 }
 .travel__location:hover {
-  color: #FFFFFF;
-  background-color: #01384D;
+  color: #ffffff;
+  background-color: #01384d;
   transition: all 0.3s ease;
 }
 .travel__location:hover::before {
@@ -2267,7 +2267,7 @@ ul {
 }
 .interes {
   padding: 70px 0 63px 0;
-  background-color: #EABF9F;
+  background-color: #eabf9f;
   text-align: center;
   position: relative;
   overflow-x: hidden;
@@ -2286,7 +2286,7 @@ ul {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .interes__text {
@@ -2297,7 +2297,7 @@ ul {
   font-weight: 400;
   font-size: 11px;
   line-height: 23px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .interes__wrap {
@@ -2315,14 +2315,14 @@ ul {
   font-weight: 600;
   font-size: 14px;
   line-height: 14px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .interes__input {
   width: 100%;
   padding: 15px 25px 15px 50px;
   border: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 5px;
   margin-bottom: 20px;
   font-family: "Raleway";
@@ -2338,7 +2338,7 @@ ul {
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.4;
 }
 
@@ -2350,8 +2350,8 @@ ul {
   font-weight: 600;
   font-size: 14px;
   line-height: 14px;
-  color: #FFFFFF;
-  background-color: #01384D;
+  color: #ffffff;
+  background-color: #01384d;
   border: none;
   border-radius: 5px;
   padding: 13px;
@@ -2365,7 +2365,7 @@ ul {
   padding: 117px 0 120px 0;
   position: absolute;
   top: 10px;
-  background-color: #EABF9F;
+  background-color: #eabf9f;
 }
 
 .interes__second--on {
@@ -2387,7 +2387,7 @@ ul {
   font-size: 24px;
   line-height: 34px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
 .second__text {
@@ -2397,7 +2397,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: #01384D;
+  color: #01384d;
 }
 
 @media only screen and (min-width: 450px) {
@@ -2455,7 +2455,7 @@ ul {
     padding: 91px 0 80px 0;
     position: absolute;
     top: 0;
-    background-color: #EABF9F;
+    background-color: #eabf9f;
   }
   .second__title {
     margin: 0;
@@ -2466,7 +2466,7 @@ ul {
     font-size: 36px;
     line-height: 44px;
     text-align: center;
-    color: #01384D;
+    color: #01384d;
   }
   .second__text {
     margin: 0;
@@ -2475,7 +2475,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    color: #01384D;
+    color: #01384d;
   }
   .interes__count {
     top: 22px !important;
@@ -2521,7 +2521,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  color: #01384D;
+  color: #01384d;
 }
 
 .high__icon {
@@ -2554,12 +2554,12 @@ ul {
 
 .down__span {
   padding: 3px 8px;
-  border: 2px solid #00094A;
+  border: 2px solid #00094a;
 }
 
 .down__link {
   display: inline-block;
-  background-color: #00094A;
+  background-color: #00094a;
   padding: 3px 5px;
 }
 
@@ -2582,7 +2582,7 @@ ul {
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  color: #01384D;
+  color: #01384d;
   mix-blend-mode: normal;
   opacity: 0.5;
 }

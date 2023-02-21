@@ -1,124 +1,121 @@
-
-.papular{
+.papular {
   padding-bottom: 70px;
 }
 
-.popular__title{
+.popular__title {
   margin: 0;
   margin-bottom: 42px;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
-.popular__item{
+.popular__item {
   width: 100%;
   max-width: 407px;
   margin: 0 auto;
-  background: #FFFFFF;
-  border: 2px solid #01384D;
+  background: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
   margin-bottom: 27px;
 }
 
-.popular__img{
+.popular__img {
   width: 100%;
 }
 
-.mini__title{
+.mini__title {
   margin: 0;
   margin-bottom: 10px;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
 }
 
-.mini__text{
+.mini__text {
   margin: 0;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
   text-align: center;
-  color: #01384D;
+  color: #01384d;
   opacity: 0.7;
 }
 
-.mini__text--two{
+.mini__text--two {
   margin-bottom: 17px;
 }
 
-.mini__link{
+.mini__link {
   display: block;
   text-align: center;
   text-decoration: none;
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-text-decoration-line: underline;
-color: #01384D;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #01384d;
 }
 
-.popular__info{
+.popular__info {
   padding: 45px 10px 20px 10px;
 }
 
-@include media-min(768px){
-  .papular{
+@include media-min(768px) {
+  .papular {
     padding-bottom: 130px;
   }
-  
-  .popular__title{
+
+  .popular__title {
     margin: 0;
     margin-bottom: 63px;
     font-size: 50px;
     line-height: 59px;
   }
 
-  .mini__title{
+  .mini__title {
     margin-bottom: 26px;
     font-size: 24px;
     line-height: 28px;
   }
-  
-  .mini__text{
+
+  .mini__text {
     font-size: 18px;
-line-height: 25px;
+    line-height: 25px;
   }
-  
-  .mini__text--two{
+
+  .mini__text--two {
     margin-bottom: 30px;
   }
 
-  .popular__info{
+  .popular__info {
     padding: 60px 28px 21px 28px;
   }
-  
-  
 }
 
-@include media-min(1024px){
-  .popular__list{
+@include media-min(1024px) {
+  .popular__list {
     display: flex;
   }
 
-  .popular__item{
+  .popular__item {
     margin-bottom: 0px;
   }
 
-  .popular__item--midle{
+  .popular__item--midle {
     margin: 0 30px;
   }
 }

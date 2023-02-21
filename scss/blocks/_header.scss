@@ -1,33 +1,33 @@
-.header{
+.header {
   padding-top: 18px;
   position: relative;
 }
 
-.header__nav{
+.header__nav {
   display: none;
 }
 
-.header__img{
+.header__img {
   width: 109px;
   height: 25px;
 }
 
-.header__info{
+.header__info {
   display: none;
 }
 
-.header__logo{
+.header__logo {
   text-decoration: none;
 }
 
-.nav-top{
+.nav-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 60px;
 }
 
-.close-btn{
+.close-btn {
   width: 23px;
   height: 10px;
   border: none;
@@ -38,7 +38,7 @@
   background-size: contain;
 }
 
-.exit-btn{
+.exit-btn {
   width: 17px;
   height: 17px;
   border: none;
@@ -49,20 +49,20 @@
   background-size: contain;
 }
 
-.header__bottom{
+.header__bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header__nav--active{
+.header__nav--active {
   display: block;
 }
 
-.nav-high{
-  padding:50px 20px 0px 30px;
+.nav-high {
+  padding: 50px 20px 0px 30px;
   overflow-x: hidden;
-  background-color: #EABF9F !important;
+  background-color: #eabf9f !important;
   -webkit-animation-name: circle-to-square;
   animation-name: circle-to-square;
   -webkit-animation-duration: 2s;
@@ -72,80 +72,77 @@
   -webkit-animation-direction: 5s;
   animation-direction: 5s;
   -webkit-animation-timing-function: ease;
-  animation-timing-function: ease
+  animation-timing-function: ease;
 }
 
-.header__nav{
+.header__nav {
   overflow-x: hidden;
   position: absolute;
-  background-color: #EABF9F;
+  background-color: #eabf9f;
   width: 100%;
   top: 0;
   right: 0;
   z-index: 5;
 }
 
-.header__item{
+.header__item {
   margin-bottom: 30px;
 }
 
-.header__item:last-child{
+.header__item:last-child {
   margin-bottom: 45px;
 }
 
-.header__link{
+.header__link {
   text-decoration: none;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
-  color: #01384D;
+  color: #01384d;
 }
 
-.header__btn{
-  font-family: 'Josefin Sans';
+.header__btn {
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   padding: 15px 30px;
-  color: #01384D;
-  background-color: #FFFFFF;
-  border: 2px solid #01384D;
+  color: #01384d;
+  background-color: #ffffff;
+  border: 2px solid #01384d;
   border-radius: 5px;
 }
 
-.wrap__number{
+.wrap__number {
   margin-top: 90px;
   padding: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-.header__tel{
-  font-family: 'Josefin Sans';
+.header__tel {
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
-  color: #01384D;
+  color: #01384d;
   position: relative;
-display: flex;
-align-items: center;
-&::before{
-  content: "";
-  width: 19px;
-  height: 19px;
-  background-image: url(../../images/Call.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  &::before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-image: url(../../images/Call.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 12px;
+  }
 }
-}
-
-
-
 
 @keyframes circle-to-square {
   0% {
@@ -158,96 +155,91 @@ align-items: center;
   }
 }
 
-
-
-
-@include media-min(768px){
-  
-  .header__img{
+@include media-min(768px) {
+  .header__img {
     width: 160px;
     height: 37px;
   }
-  
+
   .nav-top,
   .header__btn,
-  .wrap__number{
+  .wrap__number {
     display: none;
   }
-  
-  .header__nav{
+
+  .header__nav {
     overflow-x: hidden;
     position: static;
     background-color: transparent;
     width: 100%;
   }
-  
-  .nav-high{
-    padding:0;
+
+  .nav-high {
+    padding: 0;
     overflow-x: hidden;
   }
-  
-  .header__list{
+
+  .header__list {
     display: flex;
     justify-content: flex-end;
   }
-  
+
   .header__item,
-  .header__item:last-child{
+  .header__item:last-child {
     margin-bottom: 0;
     margin-right: 50px;
   }
-  .header__item:last-child{
+  .header__item:last-child {
     margin-right: 0px;
   }
-  
-  .header__link{
-    font-family: 'Raleway';
+
+  .header__link {
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #5E6E6E;
+    color: #5e6e6e;
   }
-  
-  .close-btn{
+
+  .close-btn {
     display: none;
   }
 
-  .header__info{
+  .header__info {
     display: flex;
     align-items: center;
   }
 
-  .header__btn--on{
+  .header__btn--on {
     display: block;
   }
 
-  .header__bottom{
+  .header__bottom {
     padding: 15px 0;
   }
 
-  .header__tel{
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-color: #01384D;
-text-decoration: none;
-margin-right: 38px;
-position: relative;
-display: flex;
-align-items: center;
-&::before{
-  content: "";
-  width: 19px;
-  height: 19px;
-  background-image: url(../../images/Call.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  margin-right: 12px;
-}
+  .header__tel {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #01384d;
+    text-decoration: none;
+    margin-right: 38px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    &::before {
+      content: "";
+      width: 19px;
+      height: 19px;
+      background-image: url(../../images/Call.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      margin-right: 12px;
+    }
   }
-  
 }

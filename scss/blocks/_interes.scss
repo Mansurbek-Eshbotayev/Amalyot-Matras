@@ -1,258 +1,249 @@
-.interes{
+.interes {
   padding: 70px 0 63px 0;
-  background-color: #EABF9F;
+  background-color: #eabf9f;
   text-align: center;
   position: relative;
   overflow-x: hidden;
 }
 
-.interes__info{
+.interes__info {
   margin-bottom: 47px;
 }
 
-.interes__title{
+.interes__title {
   text-align: start;
   margin: 0;
   margin-bottom: 3px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 24px;
-color: #01384D;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #01384d;
 }
 
-.interes__text{
+.interes__text {
   text-align: start;
   margin: 0;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 23px;
-color: #01384D;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 23px;
+  color: #01384d;
 }
 
-.interes__wrap{
+.interes__wrap {
   position: relative;
   display: inline-block;
   width: 100%;
   max-width: 420px;
-  .interes__count{
-     position: absolute;
-     top: 15px;
-     left: 10px;
-     font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-color: #01384D;
+  .interes__count {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01384d;
   }
 }
 
-.interes__input{
+.interes__input {
   width: 100%;
   padding: 15px 25px 15px 50px;
   border: none;
-  background-color: #FFFFFF;
-border-radius: 5px;
-margin-bottom: 20px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-color: #01374dc1;
-&::placeholder{
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-color: #01384D;
-opacity: 0.4;
-}
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #01374dc1;
+  &::placeholder {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #01384d;
+    opacity: 0.4;
+  }
 }
 
-.interes__btn{
+.interes__btn {
   width: 100%;
   max-width: 420px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-color: #FFFFFF;
-background-color: #01384D;
-border: none;
-border-radius: 5px;
-padding: 13px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: #01384d;
+  border: none;
+  border-radius: 5px;
+  padding: 13px;
 }
 
-.interes__second{
+.interes__second {
   display: none;
   width: 100%;
   left: 0;
   text-align: center;
-  padding: 117px  0  120px 0;
+  padding: 117px 0 120px 0;
   position: absolute;
   top: 10px;
-  background-color: #EABF9F;
+  background-color: #eabf9f;
 }
 
-.interes__second--on{
+.interes__second--on {
   display: block;
 }
 
-.second__wrap{
+.second__wrap {
   width: 100%;
   max-width: 455px;
   margin: 0 auto;
 }
 
-.second__title{
+.second__title {
   margin: 0;
   margin-bottom: 15px;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 34px;
-text-align: center;
-color: #01384D;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #01384d;
 }
 
-.second__text{
+.second__text {
   margin: 0;
-  font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 14px;
-color: #01384D;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #01384d;
 }
 
-
-
-@include media-min(450px){
-  .interes__title{
+@include media-min(450px) {
+  .interes__title {
     text-align: center;
   }
-  
-  .interes__text{
+
+  .interes__text {
     text-align: center;
   }
 }
 
-
-@include media-min(768px){
-  .interes{
+@include media-min(768px) {
+  .interes {
     padding: 112px 0 112px 0;
     text-align: start;
   }
 
-  .interes__inner{
+  .interes__inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  .interes__info{
+  .interes__info {
     margin-right: 20px;
   }
 
-  .interes__form{
-   width: 100%;
-   max-width: 400px;
-   
+  .interes__form {
+    width: 100%;
+    max-width: 400px;
   }
 
-  .interes__info{
+  .interes__info {
     margin-bottom: 0px;
   }
 
-  .interes__title{
+  .interes__title {
     text-align: start;
     margin-bottom: 10px;
-  font-size: 36px;
-line-height: 42px;
+    font-size: 36px;
+    line-height: 42px;
   }
 
-  .interes__text{
+  .interes__text {
     text-align: start;
-  font-size: 16px;
+    font-size: 16px;
   }
 
-  .interes__input{
-  margin-bottom: 20px;
-  padding: 21px 23px 20px 60px;
-  font-size: 16px;
-line-height: 19px;
+  .interes__input {
+    margin-bottom: 20px;
+    padding: 21px 23px 20px 60px;
+    font-size: 16px;
+    line-height: 19px;
   }
 
-  .interes__btn{
+  .interes__btn {
     width: auto;
-  font-size: 18px;
-line-height: 21px;
-  padding: 19px 82px;
-  border: none !important;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 19px 82px;
+    border: none !important;
   }
 
-  .interes__second{
-    padding: 91px  0  80px 0;
+  .interes__second {
+    padding: 91px 0 80px 0;
     position: absolute;
     top: 0;
-    background-color: #EABF9F;
+    background-color: #eabf9f;
   }
 
-  .second__title{
+  .second__title {
     margin: 0;
     margin-bottom: 15px;
-    font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-line-height: 44px;
-  text-align: center;
-  color: #01384D;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #01384d;
   }
 
-  .second__text{
+  .second__text {
     margin: 0;
-    font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-line-height: 23px;
-  color: #01384D;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #01384d;
   }
 
-  .interes__count{
+  .interes__count {
     top: 22px !important;
     left: 20px !important;
-font-size: 16px;
-line-height: 19px;
- }
-
-
-
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
 
-@include media-min(1230px){
-  .interes__form{
+@include media-min(1230px) {
+  .interes__form {
     width: 100%;
     max-width: 675px;
-   }
+  }
 
-   .interes__input{
+  .interes__input {
     margin-bottom: 0px;
     padding: 21px 23px 20px 60px;
-    }
+  }
 
-    .interes__info{
-      margin-right: 0px;
-    }
-
-   
+  .interes__info {
+    margin-right: 0px;
+  }
 }
